@@ -1,0 +1,44 @@
+body
+{
+     
+}
+
+.slider .image-header
+{
+    background-image: url(../images/feature.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    margin-bottom: 70px;
+    position: relative;
+}
+
+.slider .image-header h1
+{
+    color: #FFF;
+    position: relative;
+    z-index: 7;
+    padding-top: 15%;
+    font-size: 47px;
+    text-transform: capitalize;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+
+form
+{
+    max-width: 45%;
+    margin: 60px auto;
+}
+
+form .btn-send
+{
+    background-color: #456795;
+    text-transform: uppercase;
+    padding: 8px 40px;
+    color: #FFF;
+    border: 0;
+    border-radius: 30px;
+    font-size: 18px;
+    margin-top: 15px;
+}

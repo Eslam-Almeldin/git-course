@@ -1,0 +1,511 @@
+/*Global Classies*/
+a
+{
+    text-decoration: none;
+}
+.overlay
+{
+    background-color: rgba(69, 103, 149, 0.7);
+    position: absolute;
+    top:  0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.h-bold
+{
+    font-weight: bold;
+}
+
+.first-h
+{
+    font-size: 8em;
+    color: #f7f7f7;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bolder;
+}
+
+.secound-h
+{
+    margin-top: -97px;
+    padding-bottom: 10%;
+    font-weight: lighter;
+    text-transform: capitalize;
+    font-size: 34px;
+}
+
+/*GLOBAL MEDIA QUERIES*/
+@media (min-width: 319px) and (max-width: 575.98px) {
+    
+    .first-h
+    {
+        font-size: 3em;
+    }
+    
+    .secound-h
+    {
+        margin-top: -46px;
+        font-size: 19px;
+
+    }
+     
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    .first-h
+    {
+        font-size: 6em;
+    }
+    
+    .secound-h
+    {
+        margin-top: -77px;
+        font-size: 30px;
+
+    }
+
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+.first-h
+    {
+        font-size: 6em;
+    }
+    
+    .secound-h
+    {
+        margin-top: -77px;
+        font-size: 30px;
+
+    }
+
+}
+/*GLOBAL MEDIA QUERIES*/
+/*Global Classies*/
+body
+{
+
+}
+
+
+.navbar-basic color
+{
+    padding-top: 30px;
+}
+/*NAVBAR*/
+.navbar
+{
+    padding-top: 30px;
+}
+
+.navbar-change-color
+{
+    padding-top: 15px;
+    background-color: #456795;
+    padding-bottom: 15px;
+    transition: 0.7s ease all;
+}
+}
+.navbar-light .navbar-brand
+{
+    color: #FFF;
+}
+
+.navbar-light .navbar-nav .nav-link
+{
+    color: #FFF;
+    padding-right: 50px;
+    text-transform: capitalize;
+    
+}
+
+ 
+
+.navbar-light .navbar-nav .nav-item.active
+{
+    
+}
+
+/*MEDIA QUERIES FOR NAVBAR*/
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .navbar-light .navbar-nav .nav-link
+    {
+        text-align: center;
+        padding-right: 30px;
+        font-size: 20px;
+        background-color: #456795;
+    }
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+
+.navbar-light .navbar-nav .nav-link
+    {
+        text-align: center;
+        padding-right: 30px;
+        font-size: 20px;
+         background-color: #456795;
+    }
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+
+.navbar-light .navbar-nav .nav-link
+    {
+        text-align: center;
+        padding-right: 30px;
+        font-size: 20px;
+         background-color: #456795;
+    }
+}
+/*MEDIA QUERIES FOR NAVBAR*/
+/*NAVBAR*/
+
+/*SLIDER*/
+ 
+
+.carousel-item .carousel-caption
+{
+    bottom: 30%;
+}
+
+.carousel-item .carousel-caption h1
+{
+    font-size: 60px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    
+}
+ 
+.carousel-item .carousel-caption p
+{
+    font-size: 27px;
+    padding-top: 20px;
+}
+
+.carousel-inner .carousel-item .w-100
+{
+    height: 680px;
+}
+/*SLIDER*/
+
+/*SERVICES*/
+.services
+{
+    padding: 70px 0;
+}
+
+.services .service-section
+{
+    margin-bottom: 20px;
+}
+
+.services .service-section i
+{
+    margin-bottom: 15px;
+    color: #456795;
+}
+
+.services .service-section h3
+{
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    color: #456795;
+}
+
+/*SERVICES*/
+
+/*FEATURES*/
+ 
+.feature .head-feature
+{
+    background-image: url(../images/feature.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    margin-bottom: 70px;
+    position: relative;
+    
+}
+
+ 
+.feature .head-feature h1
+{
+    font-size: 55px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    padding-top: 80px;
+    color: #FFF;
+    word-spacing: 10px;
+    position: relative;
+    z-index: 3;
+    line-height: 1.5;
+}
+
+.feature .our-features h2
+{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: #456795;
+    font-size: 30px;
+}
+
+.feature .our-features p
+{
+    font-size: 17px;
+    padding-right: 30px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+/*MEDIA QUERIES FOR FEATURES*/
+
+@media (min-width: 319px) and (max-width: 575.98px) {
+    
+     .feature .head-feature h1
+    {
+        font-size: 41px;
+        padding-top: 47px;
+        word-spacing: 5px;
+        
+    }
+    
+    .feature .our-features h2
+    {
+        text-align: center;
+    }
+     
+    .feature .our-features p
+    {
+        text-align: center;
+        padding-right: 0;
+        margin-bottom: 25px;
+    }
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    
+
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+.feature .our-features h2
+    {
+        text-align: center;
+    }
+     
+    .feature .our-features p
+    {
+        text-align: center;
+        padding-right: 0;
+    }
+ 
+}
+ /*MEDIA QUERIES FOR FEATURES*/
+/*FEATURES*/
+
+/*ABOUT-US*/
+.about-us
+{
+    padding: 70px 0;
+}
+.about-us .caption
+{
+    margin-bottom: 20px;
+}
+.about-us .caption img
+{
+    margin-bottom: 20px;
+}
+
+.about-us .caption h3
+{
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 400;
+}
+/*ABOUT-US*/
+
+/*SKILLS*/
+.skills
+{
+    padding: 70px 0;
+}
+
+.skills .our-skills
+{
+    margin-bottom: 50px;
+}
+.skills .our-skills .progress,
+.skills .our-skills .progress .progress-bar
+{
+    border-radius: 10px;
+}
+.skills .our-skills .progress
+{
+    margin-bottom: 15px;
+}
+
+.skills .our-skills h3
+{
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+.skills .our-skills p
+{
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+
+/*MEDIA QUERIES FOR SKILLS*/
+
+@media (min-width: 319px) and (max-width: 575.98px) {
+     
+    .skills .our-skills h3
+    {
+        font-size: 21px;
+    }
+    
+    .skills .our-skills p
+    {
+        font-size: 13px;
+    }
+    
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+ 
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+ 
+}
+
+/*MEDIA QUERIES FOR SKILLS*/
+/*SKILLS*/
+
+/*OUR-CLIENTS*/
+.our-clients
+{
+    margin-bottom: 100px;
+}
+
+.our-clients .slider > div
+{
+    display: none;
+}
+.our-clients .slider .active
+{
+    display: block;
+}
+
+.our-clients .slider .client-review
+{
+    font-size: 25px;
+    color: #bdbdbd;
+    margin-bottom: 50px;
+    line-height: 1.8;
+}
+
+.our-clients .slider h3
+{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.our-clients .slider .title
+{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #456795;
+    letter-spacing: 3px;
+}
+
+/*MEDIA QUERIES FOR OUR-CLIENTS*/
+
+@media (min-width: 319px) and (max-width: 575.98px) {
+     
+  .our-clients .slider .client-review
+    {
+        font-size: 20px;
+    }
+    
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+ 
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+ 
+}
+
+/*MEDIA QUERIES FOR OUR-CLIENTS*/
+/*OUR-CLIENTS*/
+
+/*FOOTER*/
+footer
+{
+    padding-top: 20px;
+    border-top: 1px solid #bdbdbd;
+}
+footer .page-map
+{
+    display: inline-flex;
+     
+}
+
+footer .page-map li
+{
+    
+    padding-right: 20px;
+    text-transform: capitalize;
+    color: #bdbdbd;
+}
+
+footer .page-map li a
+{
+    text-decoration: none;
+    color: #bdbdbd; 
+}
+footer .logo a
+{
+    text-decoration: none;
+    color: #bdbdbd;
+    text-transform: uppercase;
+}
+
+footer .copyright p
+{
+    color: #bdbdbd;
+    text-transform: capitalize;
+}
+/*FOOTER*/
+
